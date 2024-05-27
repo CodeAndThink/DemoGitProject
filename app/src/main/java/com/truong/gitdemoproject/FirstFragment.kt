@@ -24,7 +24,7 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val TAG = "No worry"
+        val TAG = "No worry about the feature"
         Log.d(TAG, "onCreateView: had been create")
         Log.d(TAG, "onCreateView: completa")
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
