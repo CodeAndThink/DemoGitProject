@@ -24,10 +24,6 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val TAG = "No worry"
-        Log.d(TAG, "onCreateView: had been create")
-        Log.d(TAG, "onCreateView: completa")
-        Log.d(TAG, "onCreateView: or not")
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
