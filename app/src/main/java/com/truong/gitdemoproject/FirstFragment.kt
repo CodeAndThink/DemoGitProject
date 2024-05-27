@@ -27,6 +27,9 @@ class FirstFragment : Fragment() {
         binding.textviewFirst.setText("feature 1")
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
+        binding.buttonFirst.setOnClickListener {
+            binding.textviewFirst.setText("feature 2")
+        }
 
     }
 
