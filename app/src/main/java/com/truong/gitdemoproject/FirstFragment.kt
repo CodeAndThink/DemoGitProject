@@ -33,8 +33,10 @@ class FirstFragment : Fragment() {
             binding.textviewFirst.setText("feature 2")
             //have some comments
             //another comments
+            //Other want to squash
+            //How about some thing else
+            //or what
         }
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
