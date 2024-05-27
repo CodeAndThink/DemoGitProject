@@ -1,6 +1,7 @@
 package com.truong.gitdemoproject
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -23,7 +24,9 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
+        val TAG = "No worry"
+        Log.d(TAG, "onCreateView: had been create")
+        Log.d(TAG, "onCreateView: completa")
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
