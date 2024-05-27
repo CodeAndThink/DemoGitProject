@@ -31,6 +31,7 @@ class FirstFragment : Fragment() {
 
         binding.buttonFirst.setOnClickListener {
             binding.textviewFirst.setText("feature 2")
+            //have some comments
         }
 
     }
