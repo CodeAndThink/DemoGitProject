@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.truong.gitdemoproject.databinding.FragmentFirstBinding
 
@@ -24,15 +25,13 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding.textviewFirst.setText("feature 1")
 
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
         binding.buttonFirst.setOnClickListener {
             binding.textviewFirst.setText("feature 2")
-            binding.textviewFirst.setText("feature 3")
-            // Add more comments
+            Toast.makeText(context, "feature 2 toast message", Toast.LENGTH_SHORT).show()
         }
     }
 
