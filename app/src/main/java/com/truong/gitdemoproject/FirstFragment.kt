@@ -31,12 +31,8 @@ class FirstFragment : Fragment() {
 
         binding.buttonFirst.setOnClickListener {
             binding.textviewFirst.setText("feature 2")
-            //have some comments
-            //another comments
-            //Other want to squash
-            //How about some thing else
-            //or what
             binding.textviewFirst.setText("feature 3")
+            // Add more comments
         }
     }
 
