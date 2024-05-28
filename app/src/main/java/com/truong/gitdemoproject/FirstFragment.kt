@@ -36,6 +36,7 @@ class FirstFragment : Fragment() {
             //Other want to squash
             //How about some thing else
             //or what
+            binding.textviewFirst.setText("feature 3")
         }
     }
 
