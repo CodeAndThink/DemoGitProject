@@ -20,7 +20,9 @@
             app:layout_constraintBottom_toTopOf="@id/textview_first"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
